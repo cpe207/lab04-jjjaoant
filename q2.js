@@ -1,10 +1,10 @@
 function arrayStringify(a) {
-    let result = ' ';
-    for (let i = 0; i < a.length; i++) {
-        a[i] = a[i].tostring()
-        result = result +  a[i];
-    }
-    return result ;
+    let result = '';
+   for (let i = 0; i < a.length; i++) {
+      a[i] = a[i].toString();
+      result = result +  a[i];
+   }
+   return result ;
 }
 var c1 = [1, 2, 3];
 var c2 = [10, 9, 8, 7, 6, 5];
