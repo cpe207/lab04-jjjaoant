@@ -1,7 +1,8 @@
 function arrayStringify(a) {
     let result = ' ';
     for (let i = 0; i < a.length; i++) {
-       result +=  a[i];
+        a[i] = a[i].tostring()
+        result = result +  a[i];
     }
     return result ;
 }
